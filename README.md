@@ -1,6 +1,6 @@
 # CyriaquetossouNg
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.6.
+This project is a sample personal portfolio build with Angular v18.2.6.
 
 ## Development server
 

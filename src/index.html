@@ -1,13 +1,42 @@
 <!doctype html>
 <html lang="en">
 <head>
+  <link rel="import" href="default_header.html">
   <meta charset="utf-8">
-  <title>CyriaquetossouNg</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Cyriaque TOSSOU Personal site.">
+  <meta name="author" content="Cyriaque TOSSOU">
+  <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+  <!-- Bootstrap + JohnDoe main styles -->
+  <link rel="stylesheet" href="assets/css/johndoe.css">
+  <title>Cyriaque TOSSOU | Software architect</title>
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+  <a href="components.html" class="btn btn-primary btn-component" data-spy="affix" data-offset-top="600"><i class="ti-shift-left-alt"></i> Components</a>
+
   <app-root></app-root>
+
+  <app-contact></app-contact>
+  <app-footer></app-footer>
+  <!-- core  -->
+  <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+  <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+  <!-- bootstrap 3 affix -->
+  <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+  <!-- Isotope  -->
+  <script src="assets/vendors/isotope/isotope.pkgd.js"></script>
+
+  <!-- Google mpas -->
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtme10pzgKSPeJVJrG1O3tjR6lk98o4w8&callback=initMap"></script>
+
+  <!-- JohnDoe js -->
+  <script src="assets/js/johndoe.js"></script>
+  <!-- Include common code and replace the title -->
+  <link rel="import" href="path/to/common.html">
+  <script>
+    //document.querySelector('title').innerText = "Cyriaque TOSSOU | Software architect";
+  </script>
 </body>
 </html>
